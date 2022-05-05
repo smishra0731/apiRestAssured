@@ -71,6 +71,8 @@ public class ValidateResponse {
 			get("http://www.thomas-bayer.com/sqlrest/CUSTOMER/10"). 
 			then(). 
 				statusCode(200).body("FIRSTNAME", equalTo("Sue"));
+		System.out.println("Response validated");
+		System.out.println("Add this file t staging area without commiting it and view it");
 	}
 
 }
